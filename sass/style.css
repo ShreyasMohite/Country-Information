@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-color: rgba(111, 111, 241, 0.788);
+  font-size: 0.5rem;
+}
+
+.big-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 80rem;
+  height: 38rem;
+  background-color: #fffdfd;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.input-groups {
+  padding: 0.3rem;
+  text-align: center;
+  background-color: rgba(247, 243, 243, 0.993);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.input-groups #selects {
+  width: 15rem;
+  font-size: 1.4rem;
+  height: 2rem;
+}
+
+.input-groups .but {
+  width: 7rem;
+  height: 2rem;
+  font-size: 1rem;
+  -webkit-box-shadow: 0px 0px 5px;
+          box-shadow: 0px 0px 5px;
+  border-radius: 20rem;
+  border: none;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: rgba(16, 19, 172, 0.596);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+.set-img-size {
+  width: 12rem;
+  height: 10rem;
+}
+/*# sourceMappingURL=style.css.map */
